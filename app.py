@@ -2,7 +2,9 @@ import streamlit as st
 import requests
 import pandas as pd
 
-BASE_URL = "http://127.0.0.1:5000"
+#BASE_URL = "http://127.0.0.1:5000"
+
+BASE_URL = "https://your-backend-url.onrender.com"
 
 # ===== HANDLE OAUTH CALLBACK =====
 # Check if token is in URL (from Google OAuth redirect)
