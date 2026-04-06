@@ -149,7 +149,7 @@ async def google_login(request:Request):
       #      status_code=500,
        #     detail="Google OAuth is not configured. Set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in .env",
        # )
-    redirect_uri = os.getenv("GOOGLE_REDIRECT_URI", "https://your-render-url.onrender.com/auth")
+    redirect_uri = os.getenv("GOOGLE_REDIRECT_URI", "https://your-backend-url.onrender.com/auth/google/callback")
     # prompt=select_account forces Google's account UI instead of silently reusing the browser session
     return await oauth.google.authorize_redirect(
         request, redirect_uri, prompt="select_account"
@@ -200,8 +200,9 @@ async def google_callback(request: Request):
     #return RedirectResponse(url=f"http://127.0.0.1:8501/?token={jwt_token}", status_code=302)
 
     return RedirectResponse(
-    url=f"https://your-streamlit-app.streamlit.app/?token={jwt_token}",
-    status_code=302)
+    url=f"https://mybank-pro-secure-banking-api-uask8cchl6hvzyg6k2jzkz.streamlit.app/?token={jwt_token}",
+    status_code=302
+)
 
 
 @app.post("/signup")
