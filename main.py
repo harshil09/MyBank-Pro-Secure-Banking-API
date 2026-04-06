@@ -149,7 +149,7 @@ async def google_login(request:Request):
       #      status_code=500,
        #     detail="Google OAuth is not configured. Set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in .env",
        # )
-    redirect_uri = os.getenv("GOOGLE_REDIRECT_URI", "http://localhost:5000/auth/google/callback")
+    redirect_uri = os.getenv("GOOGLE_REDIRECT_URI", "https://your-render-url.onrender.com/auth")
     # prompt=select_account forces Google's account UI instead of silently reusing the browser session
     return await oauth.google.authorize_redirect(
         request, redirect_uri, prompt="select_account"
