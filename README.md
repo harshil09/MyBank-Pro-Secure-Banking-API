@@ -126,8 +126,8 @@ Create a `.env` file:
 
 ```env id="env01"
 GOOGLE_CLIENT_ID=your_client_id
-GOOGLE_CLIENT_SECRET=your_client_secret
-GOOGLE_REDIRECT_URI=http://localhost:5000/auth/google/callback
+GOOGLE_CLIENT_SECRET=your_secret
+GOOGLE_REDIRECT_URI=your_redirect_url
 ```
 
 ---
