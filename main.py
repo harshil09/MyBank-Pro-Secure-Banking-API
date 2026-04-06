@@ -197,7 +197,11 @@ async def google_callback(request: Request):
     jwt_token = create_access_token(
         {"user_id": user_id, "email": email, "name": display_name}
     )
-    return RedirectResponse(url=f"http://127.0.0.1:8501/?token={jwt_token}", status_code=302)
+    #return RedirectResponse(url=f"http://127.0.0.1:8501/?token={jwt_token}", status_code=302)
+
+    return RedirectResponse(
+    url=f"https://your-streamlit-app.streamlit.app/?token={jwt_token}",
+    status_code=302)
 
 
 @app.post("/signup")
