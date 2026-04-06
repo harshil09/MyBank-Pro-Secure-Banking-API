@@ -12,18 +12,6 @@ Secure Banking API with FastAPI &amp; OAuth
 
 ---
 
-## 🎥 Demo
-
-> 🔗 Add your demo video link here (Loom / YouTube)
-
-Example:
-
-```
-https://your-demo-link.com
-```
-
----
-
 ## 📸 Screenshots
 
 ### 🔐 Login Page
@@ -157,6 +145,13 @@ streamlit run app.py
 * 🛡️ Secure OAuth integration
 
 ---
+## 🌍 Live Demo
+
+- 🎨 Frontend: mybank-pro-secure-banking-api ∙ main ∙ app.py 
+- ⚙️ Backend API: https://your-backend-url.onrender.com  
+
+> Try logging in with Google 🚀
+---
 
 ## 📈 Future Improvements
 
@@ -171,8 +166,3 @@ streamlit run app.py
 
 **Harshil Soni**
 
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
