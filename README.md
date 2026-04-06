@@ -147,8 +147,9 @@ streamlit run app.py
 ---
 ## 🌍 Live Demo
 
-- 🎨 Frontend: [mybank-pro-secure-banking-api ∙ main ∙ app.py ](https://mybank-pro-secure-banking-api-uask8cchl6hvzyg6k2jzkz.streamlit.app/)
-- ⚙️ Backend API: [https://your-backend-url.onrender.com ](https://mybank-pro-secure-banking-api.onrender.com) 
+Click below to open the app in your browser:
+
+[🚀 Live Demo](https://mybank-pro-secure-banking-api-uask8cchl6hvzyg6k2jzkz.streamlit.app)
 
 > Try logging in with Google 🚀
 ---
