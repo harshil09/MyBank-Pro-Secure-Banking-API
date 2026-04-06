@@ -28,19 +28,24 @@ https://your-demo-link.com
 
 ### 🔐 Login Page
 
-![Login](images/login.png)
+<img width="2560" height="1600" alt="login" src="https://github.com/user-attachments/assets/8f94b7aa-a830-439d-a1c0-3cf9951dfa7e" />
 
 ### 📝 Signup Page
 
-![Signup](images/signup.png)
+<img width="2558" height="1387" alt="signup" src="https://github.com/user-attachments/assets/8b9c36cf-14b0-431f-9390-b08e7ecc4028" />
+
+### Google Login
+
+<img width="2559" height="1388" alt="google_login" src="https://github.com/user-attachments/assets/1b662713-2842-4715-90df-8dfddf91be5f" />
 
 ### 📊 Dashboard
 
-![Dashboard](images/dashboard.png)
+<img width="2559" height="1387" alt="dashboard" src="https://github.com/user-attachments/assets/297a8666-7881-4cde-bdc9-d262d8c47e8b" />
 
 ### 💳 Transactions
 
-![Transactions](images/transactions.png)
+<img width="2559" height="1386" alt="transactions" src="https://github.com/user-attachments/assets/cbc59cb8-371f-46d6-b81b-225e02dd4104" />
+
 
 ---
 
