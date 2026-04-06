@@ -251,7 +251,7 @@ elif st.session_state.logged_in == "Login":
 
 
     st.markdown(f"""
-<a href="{BASE_URL}/login/google" target="_self" style="text-decoration:none;">
+<a href="{BASE_URL}/auth/google/login" target="_self" style="text-decoration:none;">
     <button class="google-btn">
         <img src="https://developers.google.com/identity/images/g-logo.png"/>
         Continue with Google
