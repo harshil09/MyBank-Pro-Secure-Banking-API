@@ -3,7 +3,6 @@ Secure Banking API with FastAPI &amp; OAuth
 
 <p align="center">
   <img src="https://img.shields.io/badge/FastAPI-Backend-green?style=for-the-badge&logo=fastapi">
-  <img src="https://img.shields.io/badge/Langchain-backend-green&logo=langchain">
   <img src="https://img.shields.io/badge/Streamlit-Frontend-red?style=for-the-badge&logo=streamlit">
   <img src="https://img.shields.io/badge/Auth-JWT%20%2B%20OAuth-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Database-SQLite-lightgrey?style=for-the-badge">
